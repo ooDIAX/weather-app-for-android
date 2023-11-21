@@ -13,5 +13,6 @@
     <string name="likes">1.8K</string>
     <string name="tag1">Bangkok</string>
     <string name="tag2">Thailand</string>
+    <string name="location">Bangkok, Thailand</string>
 
 </resources>

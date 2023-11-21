@@ -7,7 +7,7 @@
     android:orientation="vertical"
     android:background="@color/black">
 
-<!--    Block 1 Start-->
+    <!--    Block 1 Start-->
     <ImageView
         android:id="@+id/palace_picture"
         android:layout_width="match_parent"
@@ -16,9 +16,39 @@
         android:scaleType="centerCrop"
         android:contentDescription="@string/image_description"/>
 
-<!--Block 1 end-->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_marginTop="-50dp">
 
-<!--    Block2 start-->
+        <ImageView
+            android:id="@+id/location"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/baseline_location_on_24"
+            android:scaleType="centerCrop"
+            android:layout_weight="1"
+            android:padding="10dp"
+            android:tint="@color/white"
+            tools:ignore="UseAppTint"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxLines="1"
+            android:ellipsize="end"
+            android:text="@string/location"
+            android:textColor="@android:color/white"
+            android:textSize="21sp"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif-light"
+            android:padding="10dp"/>
+
+    </LinearLayout>
+
+    <!--Block 1 end-->
+
+    <!--    Block2 start-->
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="82dp"
@@ -103,9 +133,9 @@
     </LinearLayout>
 
 
-<!--    Block 2 end-->
+    <!--    Block 2 end-->
 
-<!--    Block 3 start-->
+    <!--    Block 3 start-->
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="200dp"
@@ -321,14 +351,14 @@
                     android:fontFamily="sans-serif-light"/>
             </LinearLayout>
         </LinearLayout>
-<!--        Block 3 end-->
+        <!--        Block 3 end-->
 
 
 
     </LinearLayout>
 
 
-<!--    Block 4 start-->
+    <!--    Block 4 start-->
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -433,9 +463,9 @@
 
     </LinearLayout>
 
-<!--    Block 4 end-->
+    <!--    Block 4 end-->
 
-<!--    Block 5 start-->
+    <!--    Block 5 start-->
 
     <LinearLayout
         android:layout_width="match_parent"
