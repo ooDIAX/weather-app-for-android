@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">FirstProject</string>
+    <string name="image_description">Bangkok</string>
+    <string name="camera_title">Nikon D3200</string>
+    <string name="aperture_title">f/5.0</string>
+    <string name="focal_length_title">18.0mm</string>
+    <string name="shutter_speed_title">1/125s</string>
+    <string name="ISO_title">100</string>
+    <string name="dimensions_title">3906x4882</string>
+    <string name="profile_name">Biel Morro</string>
+    <string name="views">8.8M</string>
+    <string name="downloads">99.1K</string>
+    <string name="likes">1.8K</string>
+    <string name="tag1">Bangkok</string>
+    <string name="tag2">Thailand</string>
+
+</resources>
