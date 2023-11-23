@@ -14,5 +14,9 @@
     <string name="tag1">Bangkok</string>
     <string name="tag2">Thailand</string>
     <string name="location">Bangkok, Thailand</string>
+    <string name="download_icon_description">download_icon_description</string>
+    <string name="like_icon_description">like_icon_description</string>
+    <string name="bookmark_icon_description">bookmark_icon_description</string>
+    <string name="profile_pic_description">profile_picture\n</string>
 
 </resources>
