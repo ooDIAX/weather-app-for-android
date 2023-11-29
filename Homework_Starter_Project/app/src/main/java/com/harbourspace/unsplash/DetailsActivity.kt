@@ -50,7 +50,7 @@ class DetailsActivity : ComponentActivity() {
   override fun onCreate(savedInstanceState: Bundle?) {
     super.onCreate(savedInstanceState)
 
-    val id = intent.getStringExtra("id")
+    val id = intent.getStringExtra("ID")
     Log.d("DetailsActivity", "Received value: $id")
 
 
@@ -58,8 +58,8 @@ class DetailsActivity : ComponentActivity() {
       UnsplashTheme {
         unsplashViewModel.fetchImages()
         val unsplashImages = unsplashViewModel.items.observeAsState(emptyList())
-
-        unsplashViewModel.fetchjson("oBp-kWAPFnA")
+//        "oBp-kWAPFnA"
+        unsplashViewModel.fetchjson(id.toString())
         val json = unsplashViewModel.item.observeAsState()
 
         LazyColumn (
