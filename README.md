@@ -1,3 +1,3 @@
-# Mobile-Development-Class
+# WeatherApp
 
-Repository for Mobile Development class
+Simple mobile application for viewing weather for a chosed city
